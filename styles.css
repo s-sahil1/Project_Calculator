@@ -52,7 +52,7 @@ aside {
   margin-left: 0.9rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
   body {
     background-color: lightgreen;
   }
@@ -60,7 +60,20 @@ aside {
   .main-section {
     width: 338px;
     height: 256px;
-    margin-left: 27%;
+    margin-left: 19%;
+    margin-top: 250px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  body {
+    background-color: lightgreen;
+  }
+
+  .main-section {
+    width: 338px;
+    height: 256px;
+    margin-left: 24%;
     margin-top: 250px;
   }
 }
