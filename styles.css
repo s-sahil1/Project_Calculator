@@ -1,0 +1,66 @@
+body {
+  background-color: #F0EBE3;
+  background-image: url(photos/board.jpg);
+  background-repeat: no-repeat;
+  background-size: 800px 800px;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+.main-section {
+  width: 338px;
+  height: 256px;
+  margin-left: 39%;
+  margin-right: 35%;
+  margin-top: 250px;
+}
+
+button {
+  height: 2rem;
+  width: 4.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #AFB4FF;
+  font-size: 1rem;
+  margin-right: 0.2rem;
+}
+
+.operators-body {
+  margin-left: 0.9rem;
+}
+
+.textarea {
+  height: 2rem;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  width: 308px;
+  border: 1px solid #000;
+  margin-left: 0.9rem;
+  margin-bottom: 0;
+}
+
+aside {
+  float: right;
+  margin-right: 0.65rem;
+}
+
+.equal-sign {
+  height: 9.5rem;
+  background-color: #6FEDD6;
+}
+
+.numbers-body {
+  margin-left: 0.9rem;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: lightgreen;
+  }
+
+  .main-section {
+    width: 338px;
+    height: 256px;
+    margin-left: 27%;
+    margin-top: 250px;
+  }
+}
